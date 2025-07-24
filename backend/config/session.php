@@ -155,7 +155,7 @@ return [
     |
     */
 
-    'domain' => env('SESSION_DOMAIN'),
+    'domain' => null,
 
     /*
     |--------------------------------------------------------------------------
@@ -196,6 +196,6 @@ return [
     |
     */
 
-    'same_site' => 'lax',
-
+    'same_site' => null,
+    'supports_credentials' => true,
 ];

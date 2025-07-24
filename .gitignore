@@ -1,0 +1,14 @@
+# Laravel backend
+/backend/vendor/
+/backend/.env
+/backend/storage/
+/backend/node_modules/
+
+# React frontend
+/frontend/node_modules/
+/frontend/.env
+
+# General
+.DS_Store
+npm-debug.log
+yarn-error.log
